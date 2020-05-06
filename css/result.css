@@ -1,0 +1,35 @@
+html {
+  margin: 0; }
+  html body {
+    margin: 0; }
+    html body header {
+      margin: 50px 0 30px; }
+      html body header .title {
+        font-size: 25pt;
+        font-weight: bold;
+        text-align: center; }
+    html body main .errors {
+      margin: 20px auto;
+      border: 1px solid red;
+      min-width: 500px;
+      max-width: 500px; }
+      html body main .errors .error {
+        color: red;
+        font-size: 16pt;
+        padding: 0 0 0 1rem;
+        margin: 5px 0; }
+    html body main .result-all {
+      width: 600px;
+      margin: 30px auto;
+      border: 1px solid gray; }
+      html body main .result-all .result {
+        margin: 10px 0; }
+        html body main .result-all .result .title {
+          text-align: center;
+          font-size: 16pt;
+          color: gray; }
+        html body main .result-all .result .result-calc {
+          text-align: center;
+          font-size: 14pt; }
+
+/*# sourceMappingURL=result.css.map */

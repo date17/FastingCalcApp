@@ -1,0 +1,77 @@
+html {
+  margin: 0; }
+  html body {
+    margin: 0; }
+    html body header {
+      margin: 50px 0; }
+      html body header .title {
+        font-size: 25pt;
+        font-weight: bold;
+        text-align: center; }
+    html body main .short-explain {
+      margin: 0 auto 30px;
+      border: 1px solid gray;
+      min-width: 680px;
+      max-width: 700px; }
+      html body main .short-explain .title {
+        text-align: center;
+        margin: 10px 0 5px;
+        font-size: 20pt;
+        color: gray; }
+      html body main .short-explain .direction,
+      html body main .short-explain .detail-app {
+        margin: 5px 10% 10px;
+        font-size: 16pt; }
+    html body main .form {
+      margin: 0 20% 30px;
+      border: 1px solid gray;
+      padding: 10px 10px 10px 30px;
+      min-width: 460px; }
+      html body main .form .form-title {
+        font-size: 18pt;
+        font-weight: bold;
+        color: gray;
+        text-align: center;
+        margin: 0 0 10px; }
+        html body main .form .form-title span {
+          border-bottom: 1px solid gray; }
+      html body main .form .sex,
+      html body main .form .weight,
+      html body main .form .fat-percentage {
+        margin: 10px 20px 0; }
+        html body main .form .sex .title,
+        html body main .form .weight .title,
+        html body main .form .fat-percentage .title {
+          font-size: 16pt; }
+          html body main .form .sex .title span,
+          html body main .form .weight .title span,
+          html body main .form .fat-percentage .title span {
+            color: red; }
+        html body main .form .sex .input,
+        html body main .form .weight .input,
+        html body main .form .fat-percentage .input {
+          padding: 0 0 0 50px; }
+          html body main .form .sex .input select,
+          html body main .form .weight .input select,
+          html body main .form .fat-percentage .input select {
+            font-size: 16pt; }
+          html body main .form .sex .input input,
+          html body main .form .weight .input input,
+          html body main .form .fat-percentage .input input {
+            font-size: 16pt;
+            width: 7rem;
+            padding: 0 0 0 2rem; }
+      html body main .form .send-btn {
+        margin: 30px 0 10px;
+        text-align: center; }
+        html body main .form .send-btn input {
+          font-size: 18pt;
+          color: gray;
+          border: none;
+          border: 1px solid gray; }
+          html body main .form .send-btn input:hover {
+            transform: scale(1.1);
+            color: white;
+            background-color: gray; }
+
+/*# sourceMappingURL=inputData.css.map */

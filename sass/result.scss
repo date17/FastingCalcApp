@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+html {
+    margin: 0;
+    body {
+        margin: 0;
+        header {
+            margin: 50px 0 30px;
+            .title {
+                font-size: 25pt;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        main {
+            .errors {
+                margin: 20px auto;
+                border: 1px solid red;
+                min-width: 500px;
+                max-width: 500px;
+                .error {
+                    color: red;
+                    font-size: 16pt;
+                    padding: 0 0 0 1rem;
+                    margin: 5px 0;
+                }
+            }
+            .result-all {
+                width: 600px;
+                margin: 30px auto;
+                border: 1px solid gray;
+                .result {
+                    margin: 10px 0;
+                    .title {
+                        text-align: center;
+                        font-size: 16pt;
+                        color: gray;
+                    }
+                    .result-calc {
+                        text-align: center;
+                        font-size: 14pt;
+                    }
+                }
+            }
+        }
+    }
+}
