@@ -128,7 +128,7 @@ if (isset($_POST["fatPercentage"])) {
         require_once("../calc.php");
 
         if ($inputErrors["sexNo"]["bool"] === true || $inputErrors["weight"]["bool"] === true || $inputErrors["fatPercentage"]["bool"] === true) {
-            echo '<a href="http://localhost:8888/Fasting-app/view/inputData.php">入力フォームに戻る</a>';
+            echo '<a href="/inputData.php">入力フォームに戻る</a>';
             exit();
         }
         try {
