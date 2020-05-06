@@ -20,7 +20,7 @@
         </div>
         <div class="form">
             <div class="form-title"><span>入力フォーム</span></div>
-            <form action="/result.php" method="post">
+            <form action="/view/result.php" method="post">
                 <div class="sex">
                     <div class="title">性別：<span>必須</span></div>
                     <div class="input">
